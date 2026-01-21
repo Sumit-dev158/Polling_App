@@ -1,0 +1,11 @@
+{
+    "delay": "1000",
+    "signal": "SIGTERM",
+    "watch": [
+        "*.js",
+        "routes/",
+        "config/",
+        "models/"
+    ],
+    "legacyWatch": true
+}
