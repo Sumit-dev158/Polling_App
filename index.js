@@ -60,7 +60,7 @@ const server = app.listen(PORT, () => {
 const shutdown = () => {
     console.log('\nShutting down gracefully...');
     server.close(() => {
-        console.log('Server closed');
+        console.log('Server now closed');
         process.exit(0);
     });
 
